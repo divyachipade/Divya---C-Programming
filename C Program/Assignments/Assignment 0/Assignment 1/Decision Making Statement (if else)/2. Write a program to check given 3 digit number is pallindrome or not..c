@@ -2,10 +2,7 @@
 
 int main()
 {
-	int num, first, middle, last, reverse;
-	
-	printf("Enter 3 digit number: ");
-	scanf("%d",&num);
+	int num = 121, first, middle, last, reverse;
 	
 	first= num / 100;
 	middle=(num / 10) % 10;
