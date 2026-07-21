@@ -2,17 +2,14 @@
 
 void main()
 {
-	int num;
-	
-	printf("Enter number: ");
-	scanf("%d",&num);
-	
-	if( num % 2 == 0)
-	{
-	printf("Even");
+    int num = 6;
+
+    if(num % 2 == 0)
+    {
+        printf("Even");
     }
-   else
-   {
-	printf("Odd");
-   }	
+    else
+    {
+        printf("Odd");
+    }
 }
