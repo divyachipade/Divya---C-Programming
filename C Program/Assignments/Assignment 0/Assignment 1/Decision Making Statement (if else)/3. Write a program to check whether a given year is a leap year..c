@@ -2,16 +2,14 @@
 
 int main()
 {
-	int year;
-	printf("Enter Year: ");
-	scanf("%d",&year);
-	
-	if(year % 4 == 0)
-	{
-		printf("Leap Year");
-	}
-	else
-	{
-		printf("Not Leap Year");
-	}
-	}
+    int year = 2026;
+
+    if(year % 4 == 0)
+    {
+        printf("Leap Year");
+    }
+    else
+    {
+        printf("Not Leap Year");
+    }
+}
