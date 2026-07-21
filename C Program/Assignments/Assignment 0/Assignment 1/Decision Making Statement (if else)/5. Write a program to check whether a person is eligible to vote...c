@@ -2,10 +2,7 @@
 
 int main()
 {
-	int age;
-	
-	printf("Enter Age: ");
-	scanf("%d",&age);
+	int age = 20;
 	
 	if(age >= 18)
 	{
