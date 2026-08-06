@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char str1[]="Programming";
+    char str2[]="Programmer";
+
+    printf("%d", strncmp(str1,str2,7));
+
+    return 0;
+}
